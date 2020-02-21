@@ -9,53 +9,6 @@ Original file is located at
 
 import numpy as np
 import copy
-
-# Find Blank
-def BlankTileLocation(N):
-  for i in range(9):
-    if N[i]==0:
-      return i
-
-# Move up
-def ActionMoveUp(b,N):
-  U = copy.deepcopy(N)
-  #b=BlankTileLocation(U)
-  if b>2:
-    U[b]=U[b-3]
-    U[b-3]=0
-  return U
-
-# Move down
-def ActionMoveDown(b,N):
-  D = copy.deepcopy(N)
-  #b=BlankTileLocation(D)
-  if b<6:
-    D[b]=D[b+3]
-    D[b+3]=0
-  return D
-   
-# Move left
-def ActionMoveLeft(b,N):
-  L = copy.deepcopy(N)
-  #b=BlankTileLocation(L)
-  if b!=0 and b!=3 and b!=6:
-    L[b]=L[b-1]
-    L[b-1]=0
-  return L
-
-# Move right
-def ActionMoveRight(b,N):
-  R = copy.deepcopy(N)
-  #b=BlankTileLocation(R)
-  if b!=2 and b!=5 and b!=8:
-    R[b]=R[b+1]
-    R[b+1]=0
-  return R
-
-Added Add node
-
-import numpy as np
-import copy
 import time
 
 
