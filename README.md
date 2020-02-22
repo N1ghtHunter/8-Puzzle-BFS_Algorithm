@@ -16,13 +16,13 @@ the node info in NodesInfo.txt. The maximum time required to solve can be upto 1
 1. python 3
 
 ## Run
-1.Unzip the folder
-2.Run the python code 8_puzzle_bfs.py in Spyder
-            OR
-3.Open a terminal in folder containing code and type 'python 8_puzzle_bfs.py'
-4.After running, Enter a start node row wise (e.g 1 2 3 0 4 5 8 6 7) as specified in terminal/Console
-5.Wait till the action set and path is displayed (may take 1 hr 30 mins)
-6.text files will be generated in the same folder as the code
+1.Unzip the folder</br>
+2.Run the python code 8_puzzle_bfs.py in Spyder</br>
+            OR</br>
+3.Open a terminal in folder containing code and type 'python 8_puzzle_bfs.py'</br>
+4.After running, Enter a start node row wise (e.g 1 2 3 0 4 5 8 6 7) as specified in terminal/Console</br>
+5.Wait till the action set and path is displayed (may take 1 hr 30 mins)</br>
+6.text files will be generated in the same folder as the code</br>
  
 ## Documentation
 1.BlankTileLocation(N)- Used to find the Location of a blank tile in the node
@@ -44,7 +44,7 @@ the node info in NodesInfo.txt. The maximum time required to solve can be upto 1
 9.run(N)- Runs the flow for BFS Algorithm
 
 ## Reference
-1.https://www.w3schools.com/python/python_lists.asp
+1.https://www.w3schools.com/python/python_lists.asp</br>
 2.https://massivealgorithms.blogspot.com/2015/06/how-to-check-if-instance-of-8-puzzle-is.html
 
 
